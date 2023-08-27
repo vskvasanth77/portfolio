@@ -13,13 +13,28 @@ const Nav = () => {
         <div className="logocontainer">
           <img src={logo} alt="logo failed to load" className="logo" />
         </div>
-        {/* <ul className={!menuclick ? "listcontainer" : "listcontainer active"}> */}
-        <ul className={!menuclick ? "listcontainer" : "listcontainer_false"}>
-          <li>home</li>
-          <li>about</li>
-          <li>skill</li>
-          <li>projects</li>
-        </ul>
+        <div className={!menuclick ? "listhandler_open" : "listhandler_close"}>
+          <div className="insidelisthandler">
+            <div className="insideh1">
+              <h1 className="navheader">
+                Vasanth <span>S</span>
+              </h1>
+              <div className="line"></div>
+            </div>
+
+            <ul className="listcontainer">
+              <li>home</li>
+              <li>about</li>
+              <li>skill</li>
+              <li>projects</li>
+            </ul>
+            <div className="socialmediacontroler">
+              <i className="fa-brands fa-twitter" />
+              <i className="fa-brands fa-instagram" />
+              <i className="fa-brands fa-github" />
+            </div>
+          </div>
+        </div>
         <div className="btn-container">
           <button>Lets talk</button>
         </div>
