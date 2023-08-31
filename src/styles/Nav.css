@@ -50,7 +50,7 @@
 
 .btn-container button {
   width: 15rem;
-  height: 4rem;
+  height: 5rem;
   font-size: 2rem;
   border: none;
   outline: none;
@@ -62,7 +62,8 @@
   cursor: pointer;
 }
 .btn-container button:hover {
-  transform: scale(1.1);
+  background-color: transparent;
+  border: 3px solid #d25380;
 }
 
 .menu {

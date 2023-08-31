@@ -1,0 +1,121 @@
+.home_container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.home_container_left {
+  margin-left: 15rem;
+  margin-top: -5rem;
+}
+.home_header {
+  font-size: 6rem;
+  font-family: "Roboto Serif", serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.home_header_sub {
+  font-size: 4.5rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+.pink {
+  color: #d25380;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+.home_header_p {
+  font-size: 1.7rem;
+  font-family: "Nanum Gothic", sans-serif;
+  width: 65rem;
+  margin-bottom: 3rem;
+  line-height: 2.4rem;
+}
+.home_container_left_btn_handler {
+  display: flex;
+  gap: 3.4rem;
+}
+.home_container_left_btn_handler_btn1 {
+  width: 18rem;
+  height: 5rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-family: "Bitter" serif;
+  color: #fff;
+  background-color: #d25380;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.home_container_left_btn_handler_btn1:hover {
+  background-color: transparent;
+  border: solid 3px #d25380;
+}
+.home_container_left_btn_handler_btn2 {
+  width: 18rem;
+  height: 5rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-family: "Bitter" serif;
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #d25380;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.home_container_left_btn_handler_btn2:hover {
+  background-color: #d25380;
+}
+
+.home_container_left_social_handler {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: 4.3rem;
+}
+
+.icons {
+  font-size: 3rem;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.icons:hover {
+  opacity: 100%;
+}
+
+.sidebar {
+  position: absolute;
+  left: 7rem;
+  top: 7rem;
+  height: 52rem;
+}
+.sidedot {
+  position: absolute;
+  left: 5rem;
+  top: 53.3rem;
+}
+
+.middot {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+}
+
+.home_container_right {
+  margin-right: 10rem;
+  margin-top: -8rem;
+}
+.home_container_right_comupter {
+  width: 60rem;
+  height: 60rem;
+}
