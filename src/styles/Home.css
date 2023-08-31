@@ -101,14 +101,23 @@
 }
 .sidedot {
   position: absolute;
-  left: 5rem;
-  top: 53.3rem;
+  left: 4.7rem;
+  top: 53.8rem;
+  transition: all 0.2s ease-in-out;
 }
 
+.sidedot:hover {
+  transform: scale(1.4);
+}
 .middot {
   position: absolute;
   left: 50%;
   bottom: 10%;
+  transition: all 0.2s ease-in-out;
+}
+
+.middot:hover {
+  transform: scale(1.4);
 }
 
 .home_container_right {
