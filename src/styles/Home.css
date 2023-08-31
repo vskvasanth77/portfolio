@@ -128,3 +128,76 @@
   width: 60rem;
   height: 60rem;
 }
+
+/*Here after is for mobile view*/
+
+/**/
+@media (max-width: 480px) {
+  .home_container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .home_container_left {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  .home_header {
+    font-size: 3rem;
+  }
+  .home_header_sub {
+    font-size: 2.5rem;
+  }
+  .pink {
+    font-size: 2.5rem;
+  }
+  .home_header_p {
+    font-size: 1.4rem;
+    width: 30rem;
+    text-align: justify;
+    line-height: 2rem;
+  }
+
+  .home_container_left_btn_handler {
+    gap: 2.4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home_container_left_btn_handler_btn1 {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .home_container_left_btn_handler_btn2 {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .home_container_left_social_handler {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .icons {
+    font-size: 2.4rem;
+  }
+  .sidebar,
+  .sidedot {
+    display: none;
+  }
+
+  .middot {
+    position: absolute;
+    left: 45%;
+    bottom: -8%;
+  }
+  .home_container_right {
+    margin: 1rem auto;
+  }
+  .home_container_right_comupter {
+    width: 25rem;
+    height: 25rem;
+  }
+}
