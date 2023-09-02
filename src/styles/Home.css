@@ -16,6 +16,29 @@
   font-weight: bolder;
   text-transform: uppercase;
 }
+.home_header_span {
+  font-size: 6rem;
+  font-family: "Roboto Serif", serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: all ease-in 0.2s;
+  animation: 10s colorchanger infinite;
+}
+.home_header_span:hover {
+  color: #d25380;
+}
+
+@keyframes colorchanger {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #d25380;
+  }
+  100% {
+    color: #d25380;
+  }
+}
 
 .home_header_sub {
   font-size: 4.5rem;
@@ -146,6 +169,10 @@
   .home_header {
     font-size: 3rem;
   }
+  .home_header_span {
+    font-size: 6rem;
+  }
+
   .home_header_sub {
     font-size: 2.5rem;
   }

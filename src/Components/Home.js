@@ -13,7 +13,9 @@ const Home = () => {
     <>
       <div className="home_container">
         <div className="home_container_left">
-          <h1 className="home_header">Vasanth S</h1>
+          <h1 className="home_header">
+            Vasanth <span className="home_header_span">S</span>{" "}
+          </h1>
           <h2 className="home_header_sub">
             I am <span className="pink">Developer</span>
           </h2>
