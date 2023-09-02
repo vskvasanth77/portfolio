@@ -29,7 +29,7 @@
 
 .listcontainer li {
   margin-left: 8rem;
-
+  position: relative;
   font-size: 2rem;
   text-transform: uppercase;
   /* font-family: "Nanum Gothic", sans-serif; */
@@ -40,10 +40,26 @@
   cursor: pointer;
   opacity: 90%;
 }
-.listcontainer li:hover {
+.listcontainer li::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 3px;
+  bottom: -10%;
+  background-color: #d25380;
+  opacity: 0;
+  left: 0;
+  transition: all ease-in-out 0.3s;
+}
+.listcontainer li:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+
+/* .listcontainer li:hover {
   background-color: #d25380;
   border-radius: 0.2rem;
-}
+} */
 .btn-container {
   margin-left: 8rem;
 }
@@ -104,6 +120,8 @@
     height: 100%;
     overflow: hidden;
     padding-top: 10rem;
+    z-index: 10;
+    transition: all 0.9s ease-in-out;
   }
 
   .insideh1 {
@@ -157,6 +175,7 @@
   }
   .listhandler_open {
     display: block;
+    transition: all ease-in-out 0.9s;
   }
   .menuhandler {
     display: block;

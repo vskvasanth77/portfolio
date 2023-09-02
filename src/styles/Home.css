@@ -22,10 +22,8 @@
   font-weight: bolder;
   text-transform: uppercase;
   transition: all ease-in 0.2s;
-  animation: 10s colorchanger infinite;
-}
-.home_header_span:hover {
   color: #d25380;
+  /* animation: 10s colorchanger infinite; */
 }
 
 @keyframes colorchanger {
@@ -44,12 +42,14 @@
   font-size: 4.5rem;
   font-family: "Nanum Gothic", sans-serif;
   font-weight: bold;
+
   margin-bottom: 1.6rem;
 }
 .pink {
   color: #d25380;
   font-size: 4.5rem;
   text-transform: uppercase;
+  margin-left: 1.2rem;
 }
 
 .home_header_p {
@@ -170,18 +170,20 @@
     font-size: 3rem;
   }
   .home_header_span {
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   .home_header_sub {
+    margin-top: 1rem;
     font-size: 2.5rem;
   }
   .pink {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .home_header_p {
     font-size: 1.4rem;
-    width: 30rem;
+    width: 80%;
+    margin: 3rem auto;
     text-align: justify;
     line-height: 2rem;
   }
