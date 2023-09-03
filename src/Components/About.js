@@ -11,7 +11,10 @@ const About = () => {
     <>
       <div className="about_container">
         <div className="about_container_left">
-          <h1 className="about_header">About Me</h1>
+          <h1 className="about_header">
+            <span className="text">&nbsp;&nbsp;About Me</span>
+            <span className=" text text_hover">&nbsp;&nbsp;About Me</span>
+          </h1>
           <div className="about_container_left_content">
             <p className="about_p">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores

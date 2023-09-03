@@ -12,11 +12,35 @@
   margin-left: 12rem;
 }
 .about_header {
-  font-size: 5.5rem;
   font-family: "Roboto Serif", serif;
+  position: relative;
+  margin-left: -2.6rem;
 }
+.text {
+  font-size: 5.5rem;
+  position: relative;
+  color: white;
+}
+.text_hover {
+  position: absolute;
+  content: attr(data-text);
+  width: 0%;
+  inset: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  color: #d25380;
+  border-right: 0.8rem solid #d25380;
+  border-radius: 0.6rem;
+  -webkit-text-stroke: 1px #d25380;
+  cursor: pointer;
+}
+
+.text_hover:hover {
+  width: 40%;
+}
+
 .about_container_left_content {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .about_p {
@@ -79,6 +103,13 @@
   .about_header {
     font-size: 2.8rem;
     margin-left: 2rem;
+  }
+  .text {
+    font-size: 2.8rem;
+  }
+
+  .text_hover:hover {
+    width: 50%;
   }
 
   .about_container_left_content {
