@@ -1,0 +1,65 @@
+.about_container {
+  margin-top: 3rem;
+  height: 90vh;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.about_container_left {
+  /* border: 2px green solid; */
+  /* flex: 2; */
+  margin-left: 12rem;
+}
+.about_header {
+  font-size: 5.5rem;
+  font-family: "Roboto Serif", serif;
+}
+.about_container_left_content {
+  margin-top: 4rem;
+}
+
+.about_p {
+  width: 78rem;
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 2.9rem;
+  text-align: justify;
+}
+
+.about_container_left_icons {
+  margin-top: 4rem;
+}
+
+.icon_handler {
+  margin-bottom: 1.5rem;
+}
+.icon {
+  font-size: 2rem;
+}
+
+.icon_span {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.about_container_right {
+  /* border: 2px red solid; */
+  margin-right: 12rem;
+  margin-top: 11rem;
+
+  /* flex: 1;*/
+}
+
+.about_container_right_about_animation {
+  height: 40rem;
+  width: 40rem;
+}
+
+.about_img {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+}
+
+/*here after its for mobile view */
