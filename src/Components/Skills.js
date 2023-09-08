@@ -7,7 +7,12 @@ const Skills = () => {
   return (
     <>
       <div className="skill_container">
-        <h1 className="skill_header">My Skills</h1>
+        <h1 className="skill_header">
+          <span className="skill_text">&nbsp;&nbsp;My Skills</span>
+          <span className=" skill_text skill_text_hover">
+            &nbsp;&nbsp;My Skills
+          </span>
+        </h1>
         <div className="skill_content">
           <div className="skill_card_wrap">
             <CardSkill img={data[0].img} title={data[0].title} />
