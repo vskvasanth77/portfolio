@@ -60,6 +60,9 @@
   .skill_text_hover:hover {
     width: 45%;
   }
+  .skill_content {
+    gap: 4rem;
+  }
   .skill_card_wrap {
     gap: 4rem;
   }
