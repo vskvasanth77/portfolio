@@ -6,6 +6,11 @@
   border-radius: 2rem;
   cursor: pointer;
   position: relative;
+  transition: all ease-out 0.5s;
+}
+
+.card_bg:hover {
+  background-color: #5c477c;
 }
 .card_handler {
   display: flex;
@@ -24,6 +29,16 @@
   font-weight: 600;
   text-align: center;
   position: absolute;
-
   bottom: 18%;
+}
+
+.tailwind {
+  width: 7rem;
+  height: 4rem !important;
+  top: 25% !important;
+}
+
+.git {
+  width: 9rem;
+  bottom: 10% !important;
 }
