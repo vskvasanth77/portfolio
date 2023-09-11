@@ -14,11 +14,11 @@ import tailwind from "../Images/skill/tailwind.png";
 const data = [
   {
     img: python,
-    title: "python",
+    title: "Python",
   },
   {
     img: c,
-    title: "c++",
+    title: "C++",
   },
 
   {
@@ -27,7 +27,7 @@ const data = [
   },
   {
     img: css,
-    title: "Css",
+    title: "CSS",
   },
   {
     img: javascript,
@@ -60,7 +60,7 @@ const data = [
   },
   {
     img: tailwind,
-    title: "Tailwind Css",
+    title: "Tailwind CSS",
     class: "tailwind",
   },
 ];

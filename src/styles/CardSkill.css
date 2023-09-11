@@ -11,6 +11,7 @@
 
 .card_bg:hover {
   background-color: #5c477c;
+  /* background-color: #d25380;  dark pink */
 }
 .card_handler {
   display: flex;
