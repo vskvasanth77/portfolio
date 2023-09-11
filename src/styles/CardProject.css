@@ -1,0 +1,44 @@
+.cardproject_container {
+}
+
+.cardproject_bg {
+  width: 48rem;
+  height: 33rem;
+  background-color: #281841;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardproject_img {
+  width: 40rem;
+  height: 20rem;
+  border-radius: 0.3rem;
+  /* object-fit: fill; */
+}
+
+.cardproject_btn_handler {
+  display: flex;
+  gap: 10rem;
+
+  margin-top: 2rem;
+}
+.cardproject_btn {
+  border: none;
+  outline: none;
+  width: 15rem;
+  height: 4.5rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+.primary {
+  background-color: #5c477c;
+}
+
+.secondary {
+  background: none;
+  border: 0.3rem solid #5c477c;
+}
