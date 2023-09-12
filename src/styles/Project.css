@@ -1,0 +1,32 @@
+.project_container {
+  height: 90vh;
+}
+.project_header {
+  font-family: "Roboto Serif", serif;
+  font-size: 4.5rem;
+  text-align: left;
+  position: relative;
+  margin-left: 9.5rem;
+}
+.project_text {
+  font-size: 4.5rem;
+  position: relative;
+  color: white;
+}
+.project_text_hover {
+  position: absolute;
+  content: attr(data-text);
+  width: 0%;
+  inset: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  color: #d25380;
+  border-right: 0.8rem solid #d25380;
+  border-radius: 0.6rem;
+  -webkit-text-stroke: 1px #d25380;
+  cursor: pointer;
+}
+
+.project_text_hover:hover {
+  width: 23%;
+}

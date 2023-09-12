@@ -1,0 +1,63 @@
+.card_bg {
+  background-color: #281841;
+  width: 16rem;
+  height: 16rem;
+
+  border-radius: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all ease-out 0.5s;
+}
+
+.card_bg:hover {
+  background-color: #5c477c;
+  /* background-color: #d25380;  dark pink */
+}
+.card_handler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_img {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 18%;
+}
+.card_text {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  bottom: 18%;
+}
+
+.tailwind {
+  width: 7rem;
+  height: 4rem !important;
+  top: 25% !important;
+}
+
+.git {
+  width: 9rem;
+  bottom: 10% !important;
+}
+
+/* Here after it's for mobile view */
+
+@media (max-width: 480px) {
+  .card_bg {
+    width: 13rem;
+    height: 13rem;
+  }
+  .card_img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .tailwind {
+    width: 5rem;
+    height: 3rem !important;
+  }
+}

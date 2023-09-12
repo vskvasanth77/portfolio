@@ -1,0 +1,73 @@
+.skill_container {
+  height: 110vh;
+}
+.skill_header {
+  font-family: "Roboto Serif", serif;
+  font-size: 4.5rem;
+  text-align: left;
+  position: relative;
+  margin-left: 9.5rem;
+}
+.skill_text {
+  font-size: 4.5rem;
+  position: relative;
+  color: white;
+}
+
+.skill_text_hover {
+  position: absolute;
+  content: attr(data-text);
+  width: 0%;
+  inset: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  color: #d25380;
+  border-right: 0.8rem solid #d25380;
+  border-radius: 0.6rem;
+  -webkit-text-stroke: 1px #d25380;
+  cursor: pointer;
+}
+
+.skill_text_hover:hover {
+  width: 17%;
+}
+
+.skill_content {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+}
+.skill_card_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  justify-content: center;
+}
+
+/* here after its for mobile view */
+
+@media (max-width: 480px) {
+  .skill_container {
+    /* height: 150vh; */
+    height: auto;
+  }
+  .skill_header {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .skill_text {
+    font-size: 3rem;
+  }
+  .skill_text_hover:hover {
+    width: 60%;
+  }
+  .skill_content {
+    gap: 4rem;
+  }
+  .skill_card_wrap {
+    gap: 4rem;
+  }
+}

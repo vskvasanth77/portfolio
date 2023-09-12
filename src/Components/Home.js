@@ -1,5 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import Computer from "../json/Computer.json";
 import "../styles/Home.css";
@@ -9,13 +10,34 @@ import sidedot from "../Images/side_dot.png";
 import middot from "../Images/mid_dot.png";
 
 const Home = () => {
+  //USE TYPE ANIMATION
+  // const { text } = useTypewriter({
+  //   words: ["Software Engineer", "Mern stack developer", "Ui/Ux designer"],
+  //   loop: {},
+  //   typeSpeed: 120,
+  // });
+
+  const [text] = useTypewriter({
+    words: ["Software Engineer", "Mern stack developer", "Ui/Ux designer"],
+
+    loop: false,
+    typeSpeed: 180,
+    delaySpeed: 80,
+  });
+
   return (
     <>
       <div className="home_container">
         <div className="home_container_left">
-          <h1 className="home_header">Vasanth S</h1>
+          <h1 className="home_header">
+            Vasanth <span className="home_header_span">S</span>{" "}
+          </h1>
           <h2 className="home_header_sub">
-            I am <span className="pink">Developer</span>
+            I am
+            <span className="pink">{text}</span>
+            <span className="pink">
+              <Cursor />
+            </span>
           </h2>
           <p className="home_header_p">
             Home Contrary to popular belief, Lorem Ipsum is not simply random
@@ -30,9 +52,9 @@ const Home = () => {
             </button>
           </div>
           <div className="home_container_left_social_handler">
-            <i class="fa-brands fa-github  icons"></i>
+            <i className="fa-brands fa-github  icons"></i>
             <i className="fa-brands fa-linkedin icons"></i>
-            <i class="fa-brands fa-instagram icons"></i>
+            <i className="fa-brands fa-instagram icons"></i>
           </div>
           <img src={sidebar} className="sidebar" alt="failed to load" />
           <img src={sidedot} className="sidedot" alt="failed to load" />
