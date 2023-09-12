@@ -34,15 +34,15 @@ const About = () => {
             <div className="about_container_left_icons">
               {/* icon handler for 3 icons */}
               <div className="icon_handler">
-                <i class="fa-solid fa-user icon"> </i>
+                <i className="fa-solid fa-user icon"> </i>
                 <span className="icon_span">Vasanth S</span>
               </div>
               <div className="icon_handler">
-                <i class="fa-solid fa-envelope icon"></i>
+                <i className="fa-solid fa-envelope icon"></i>
                 <span className="icon_span">vskvasanth777@gmail.com</span>
               </div>
               <div className="icon_handler">
-                <i class="fa-solid fa-phone icon"></i>
+                <i className="fa-solid fa-phone icon"></i>
                 <span className="icon_span">+91 861 001 8323</span>
               </div>
               {/* ended here */}

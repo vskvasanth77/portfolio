@@ -52,9 +52,9 @@ const Home = () => {
             </button>
           </div>
           <div className="home_container_left_social_handler">
-            <i class="fa-brands fa-github  icons"></i>
+            <i className="fa-brands fa-github  icons"></i>
             <i className="fa-brands fa-linkedin icons"></i>
-            <i class="fa-brands fa-instagram icons"></i>
+            <i className="fa-brands fa-instagram icons"></i>
           </div>
           <img src={sidebar} className="sidebar" alt="failed to load" />
           <img src={sidedot} className="sidedot" alt="failed to load" />
