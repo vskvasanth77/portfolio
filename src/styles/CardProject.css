@@ -1,9 +1,6 @@
-.cardproject_container {
-}
-
 .cardproject_bg {
   width: 48rem;
-  height: 33rem;
+  height: 35rem;
   background-color: #281841;
   border-radius: 0.5rem;
   display: flex;
@@ -15,30 +12,48 @@
   width: 40rem;
   height: 20rem;
   border-radius: 0.3rem;
+  transition: all ease 0.3s;
+  cursor: pointer;
   /* object-fit: fill; */
+}
+
+.cardproject_img:hover {
+  scale: 0.95;
 }
 
 .cardproject_btn_handler {
   display: flex;
   gap: 10rem;
 
-  margin-top: 2rem;
+  margin-top: 3.3rem;
 }
 .cardproject_btn {
   border: none;
   outline: none;
   width: 15rem;
   height: 4.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   color: #fff;
   border-radius: 0.3rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
 }
 .primary {
   background-color: #5c477c;
+}
+.primary:hover {
+  background: none;
+  border: 0.3rem solid #5c477c;
 }
 
 .secondary {
   background: none;
   border: 0.3rem solid #5c477c;
+}
+
+.secondary:hover {
+  background-color: #5c477c;
+  border: none;
 }
