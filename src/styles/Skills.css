@@ -49,6 +49,10 @@
 /* here after its for mobile view */
 
 @media (max-width: 480px) {
+  .skill_container {
+    /* height: 150vh; */
+    height: auto;
+  }
   .skill_header {
     font-size: 3rem;
     text-align: left;
