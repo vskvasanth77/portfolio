@@ -94,7 +94,7 @@
     flex-direction: column;
     margin-top: 6rem;
     position: relative;
-
+    height: auto;
     margin-bottom: 2rem;
   }
   .about_container_left {

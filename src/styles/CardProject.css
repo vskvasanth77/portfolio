@@ -1,6 +1,6 @@
 .cardproject_bg {
   width: 48rem;
-  height: 35rem;
+  height: 38rem;
   background-color: #281841;
   border-radius: 0.5rem;
   display: flex;
@@ -21,11 +21,19 @@
   scale: 0.95;
 }
 
+.projectcard_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: "Nanum Gothic", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
 .cardproject_btn_handler {
   display: flex;
   gap: 10rem;
 
-  margin-top: 3.3rem;
+  margin-top: 2rem;
 }
 .cardproject_btn {
   border: none;
@@ -57,7 +65,7 @@
   background-color: #5c477c;
   border: none;
 }
-
+/* this for pop img */
 .img_container {
   position: fixed;
   top: 0;
@@ -78,4 +86,117 @@
 }
 .img_popup {
   width: 100%;
+}
+
+/* this for details view */
+
+.details_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.details_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70%;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  color: black;
+}
+
+.details_content_handler {
+  position: relative;
+  border: 3px red solid;
+}
+.details_header {
+  font-size: 3rem;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  letter-spacing: 0.8rem;
+}
+
+.details_p {
+  font-size: 1.7rem;
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: justify;
+  font-weight: 600;
+  padding: 2rem 5rem;
+  line-height: 2.8rem;
+}
+
+.details_btn_handler {
+  display: flex;
+  justify-content: center;
+}
+.details_btn {
+  border: none;
+  outline: none;
+  width: 20%;
+  height: 4.5rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-color: rgb(221, 11, 11);
+  color: #fff;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+}
+
+/* here after its for mobile view */
+
+@media (max-width: 480px) {
+  .cardproject_bg {
+    width: 38rem;
+    height: 32rem;
+    margin: 0 auto;
+  }
+
+  .cardproject_img {
+    width: 30rem;
+    height: 16rem;
+  }
+
+  .projectcard_title {
+    font-size: 1.7rem;
+  }
+  .cardproject_btn_handler {
+    gap: 4rem;
+  }
+
+  .cardproject_btn {
+    width: 13rem;
+  }
+  .img_popup {
+    width: 300px;
+  }
+
+  .details_content {
+    width: 80%;
+  }
+
+  .details_header {
+    font-size: 2rem;
+  }
+
+  .details_p {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    line-height: 2.4rem;
+  }
+
+  .details_btn {
+    width: 40%;
+    height: 3.5rem;
+    margin-top: 2rem;
+  }
 }

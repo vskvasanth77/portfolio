@@ -30,3 +30,37 @@
 .project_text_hover:hover {
   width: 23%;
 }
+
+.project_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+  margin-top: 4rem;
+}
+
+/* here after its for mobile view */
+
+@media (max-width: 480px) {
+  .project_container {
+    height: auto;
+  }
+  .project_header {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .project_text {
+    font-size: 3rem;
+  }
+
+  .project_text_hover:hover {
+    width: 60%;
+  }
+  .project_content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}

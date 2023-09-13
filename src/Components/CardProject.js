@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import "../styles/CardProject.css";
 
 const CardProject = (props) => {
-  const imgsumma =
-    "https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg";
   const [imgPop, setImgPop] = useState(false);
   const imghandler = () => {
     setImgPop(!imgPop);
-    console.log("you clicked me");
+  };
+
+  const [detailsPop, setDetailsPop] = useState(false);
+  const detailshandler = () => {
+    setDetailsPop(!detailsPop);
   };
 
   return (
@@ -17,11 +19,17 @@ const CardProject = (props) => {
           <img
             onClick={imghandler}
             className="cardproject_img"
-            src={imgsumma}
+            src={props.img}
             alt="failed to load check project section"
           />
+          <h1 className="projectcard_title">{props.title}</h1>
           <div className="cardproject_btn_handler">
-            <button className="cardproject_btn secondary">Details</button>
+            <button
+              onClick={detailshandler}
+              className="cardproject_btn secondary"
+            >
+              Details
+            </button>
             <button className="cardproject_btn primary">Github</button>
           </div>
         </div>
@@ -32,20 +40,25 @@ const CardProject = (props) => {
             <img
               onCanPlay={(e) => e.stopPropagation()}
               className="img_popup"
-              src={imgsumma}
+              src={props.img}
               alt="failed to load check cardroject"
             />
           </div>
         </div>
       )}
-
-      <div className="details_container">
-        <div className="details_content">
-          <h1>title</h1>
-          <p>description</p>
-          <button>close</button>
+      {!detailsPop && (
+        <div onClick={detailshandler} className="details_container">
+          <div className="details_content">
+            <h1 className="details_header">{props.title}</h1>
+            <p className="details_p">{props.desc}</p>
+            <div className="details_btn_handler">
+              <button className="details_btn" onClick={detailshandler}>
+                close
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 };
