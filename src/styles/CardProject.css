@@ -27,6 +27,7 @@
   margin-top: 2rem;
   font-family: "Nanum Gothic", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 .cardproject_btn_handler {
   display: flex;
@@ -121,6 +122,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 2rem;
+  letter-spacing: 0.8rem;
 }
 
 .details_p {
@@ -148,4 +150,53 @@
   transition: all 0.2s ease-in;
   cursor: pointer;
   letter-spacing: 0.2rem;
+}
+
+/* here after its for mobile view */
+
+@media (max-width: 480px) {
+  .cardproject_bg {
+    width: 38rem;
+    height: 32rem;
+    margin: 0 auto;
+  }
+
+  .cardproject_img {
+    width: 30rem;
+    height: 16rem;
+  }
+
+  .projectcard_title {
+    font-size: 1.7rem;
+  }
+  .cardproject_btn_handler {
+    gap: 4rem;
+  }
+
+  .cardproject_btn {
+    width: 13rem;
+  }
+  .img_popup {
+    width: 300px;
+  }
+
+  .details_content {
+    width: 80%;
+  }
+
+  .details_header {
+    font-size: 2rem;
+  }
+
+  .details_p {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    line-height: 2.4rem;
+  }
+
+  .details_btn {
+    width: 40%;
+    height: 3.5rem;
+    margin-top: 2rem;
+  }
 }
