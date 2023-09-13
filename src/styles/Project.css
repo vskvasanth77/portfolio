@@ -30,3 +30,11 @@
 .project_text_hover:hover {
   width: 23%;
 }
+
+.project_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 4rem;
+}

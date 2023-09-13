@@ -1,6 +1,7 @@
 import React from "react";
 import CardProject from "./CardProject";
 import "../styles/Project.css";
+import data from "../Components/CardProjectContentData";
 
 const Project = () => {
   return (
@@ -13,7 +14,16 @@ const Project = () => {
           </span>
         </h1>
         <div className="project_content">
-          <CardProject />
+          <CardProject
+            img={data[0].image}
+            title={data[0].title}
+            desc={data[0].desc}
+          />
+          <CardProject
+            img={data[0].image}
+            title={data[0].title}
+            desc={data[0].desc}
+          />
         </div>
       </div>
     </>
