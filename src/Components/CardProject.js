@@ -34,11 +34,12 @@ const CardProject = (props) => {
           </div>
         </div>
       </div>
-      {!imgPop && (
+
+      {imgPop && (
         <div className="img_container" onClick={imghandler}>
           <div className="img_handler">
             <img
-              onCanPlay={(e) => e.stopPropagation()}
+              onClick={(e) => e.stopPropagation()}
               className="img_popup"
               src={props.img}
               alt="failed to load check cardroject"
@@ -46,7 +47,8 @@ const CardProject = (props) => {
           </div>
         </div>
       )}
-      {!detailsPop && (
+
+      {detailsPop && (
         <div onClick={detailshandler} className="details_container">
           <div className="details_content">
             <h1 className="details_header">{props.title}</h1>
