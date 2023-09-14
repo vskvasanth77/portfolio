@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Email from "./Components/Email";
 import Home from "./Components/Home";
 import Nav from "./Components/Nav";
 import Project from "./Components/Project";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Project />
+      <Email />
     </div>
   );
 }
