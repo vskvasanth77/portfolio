@@ -121,8 +121,8 @@
   font-family: "poppins", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 2rem;
-  letter-spacing: 0.8rem;
+  margin-top: 3rem;
+  letter-spacing: 0.2rem;
 }
 
 .details_p {
@@ -186,17 +186,20 @@
 
   .details_header {
     font-size: 2rem;
+    letter-spacing: 0;
   }
 
   .details_p {
     font-size: 1.5rem;
-    padding: 1rem 3rem;
-    line-height: 2.4rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    line-height: 2.2rem;
   }
 
   .details_btn {
     width: 40%;
     height: 3.5rem;
     margin-top: 2rem;
+    font-size: 1.3rem;
   }
 }
