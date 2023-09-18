@@ -110,10 +110,12 @@
   font-size: 3rem;
   opacity: 70%;
   cursor: pointer;
+  color: #fff;
 }
 
 .icons:hover {
   opacity: 100%;
+  transform: scale(1.1);
 }
 
 .sidebar {
