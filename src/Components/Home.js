@@ -52,9 +52,16 @@ const Home = () => {
             </button>
           </div>
           <div className="home_container_left_social_handler">
-            <i className="fa-brands fa-github  icons"></i>
-            <i className="fa-brands fa-linkedin icons"></i>
-            <i className="fa-brands fa-instagram icons"></i>
+            <a href="https://github.com/vskvasanth77">
+              {" "}
+              <i className="fa-brands fa-github  icons"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vsk-vasanth/">
+              <i className="fa-brands fa-linkedin icons"></i>
+            </a>
+            <a href="https://www.instagram.com/web_ui_ux_designer_/">
+              <i className="fa-brands fa-instagram icons"></i>
+            </a>
           </div>
           <img src={sidebar} className="sidebar" alt="failed to load" />
           <img src={sidedot} className="sidedot" alt="failed to load" />
