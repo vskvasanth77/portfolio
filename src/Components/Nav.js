@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import logo from "../Images/Main_logo.png";
 import "../styles/Nav.css";
 
@@ -24,22 +25,77 @@ const Nav = () => {
               </div>
 
               <ul className="listcontainer">
-                <li>home</li>
-                <li>about</li>
-                <li>skill</li>
-                <li>projects</li>
+                <li>
+                  <Link
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                  >
+                    home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                  >
+                    about
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="skill"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={500}
+                  >
+                    skill
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="project"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={500}
+                  >
+                    Projects
+                  </Link>
+                </li>
               </ul>
               <div className="socialmediacontroler">
-                <i className="fa-brands fa-twitter" />
-                <i className="fa-brands fa-instagram" />
-                <i className="fa-brands fa-github" />
+                <a href="https://www.linkedin.com/in/vsk-vasanth/">
+                  <i className="fa-brands fa-linkedin" />
+                </a>
+                <a href="https://www.instagram.com/web_ui_ux_designer_/">
+                  <i className="fa-brands fa-instagram" />
+                </a>
+                <a href="https://github.com/vskvasanth77">
+                  <i className="fa-brands fa-github" />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
         <div className="btn-container">
-          <button>Lets talk</button>
+          {" "}
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration={500}
+          >
+            <button>Lets talk</button>
+          </Link>
         </div>
 
         <div className="menuhandler" onClick={menuhandler}>

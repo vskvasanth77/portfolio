@@ -6,7 +6,7 @@ import data from "../Components/CardProjectContentData";
 const Project = () => {
   return (
     <>
-      <div className="project_container">
+      <div className="project_container" id="project">
         <h1 className="project_header">
           <span className="project_text">&nbsp;&nbsp;My Project</span>
           <span className=" project_text project_text_hover">
