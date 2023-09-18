@@ -44,6 +44,7 @@
 @media (max-width: 480px) {
   .project_container {
     height: auto;
+    margin-bottom: 2rem;
   }
   .project_header {
     font-size: 3rem;
