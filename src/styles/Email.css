@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: row;
   height: auto;
-
   gap: 20rem;
+  margin-bottom: 2rem;
 }
 
 .email_header_one {
@@ -44,13 +44,9 @@
   width: 40rem;
 }
 
-.email_container_right {
-  border: 2px solid white;
-}
-
 .email_handler_bg {
   background-color: #281841;
-  height: 60rem;
+  height: 62rem;
   width: 60rem;
 }
 
