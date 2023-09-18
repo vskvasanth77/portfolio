@@ -46,7 +46,7 @@
 
 .email_handler_bg {
   background-color: #281841;
-  height: 62rem;
+  height: 64rem;
   width: 60rem;
 }
 
@@ -110,4 +110,13 @@ textarea {
   font-weight: 600;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.noti_p {
+  color: green;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: inherit;
 }
