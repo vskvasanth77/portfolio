@@ -13,9 +13,7 @@ const Email = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    inputname.current.value = "";
-    inputemail.current.value = "";
-    inputmsg.current.value = "";
+
     setMessage("sent successfully");
     setTimeout(() => {
       setMessage("");
@@ -35,7 +33,12 @@ const Email = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+      )
+      .then(() => {
+        inputname.current.value = "";
+        inputemail.current.value = "";
+        inputmsg.current.value = "";
+      });
   };
   return (
     <>
