@@ -9,7 +9,7 @@ import aboutDot from "../Images/about_section_dot.png";
 const About = () => {
   return (
     <>
-      <div className="about_container">
+      <div className="about_container" id="about">
         <div className="about_container_left">
           <h1 className="about_header">
             <span className="text">&nbsp;&nbsp;About Me</span>

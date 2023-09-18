@@ -6,7 +6,7 @@ import data from "../Components/CardContentData";
 const Skills = () => {
   return (
     <>
-      <div className="skill_container">
+      <div className="skill_container" id="skill">
         <h1 className="skill_header">
           <span className="skill_text">&nbsp;&nbsp;My Skills</span>
           <span className=" skill_text skill_text_hover">

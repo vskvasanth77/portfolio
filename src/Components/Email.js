@@ -42,7 +42,7 @@ const Email = () => {
   };
   return (
     <>
-      <div className="email_handler">
+      <div className="email_handler" id="contact">
         <h1 className="email_header_one">
           <span className="email_text">&nbsp;&nbsp;Contact Me</span>
           <span className=" email_text email_text_hover">
