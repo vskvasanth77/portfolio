@@ -6,6 +6,9 @@
 
 .email_container_left {
 }
+.email_animation_handler {
+  width: 50rem;
+}
 
 .email_container_right {
   border: 2px solid white;

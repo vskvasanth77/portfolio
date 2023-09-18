@@ -1,11 +1,17 @@
 import React from "react";
 import "../styles/Email.css";
+import Lottie from "lottie-react";
+import contact from "../json/Contact.json";
 
 const Email = () => {
   return (
     <>
       <div className="email_container">
-        <div className="email_container_left"></div>
+        <div className="email_container_left">
+          <div className="email_animation_handler">
+            <Lottie loop={true} animationData={contact} />
+          </div>
+        </div>
         <div className="email_container_right">
           <div className="email_container_right_handler">
             <div className="email_handler_bg">
