@@ -1,0 +1,45 @@
+.footer_bg {
+  background-color: #281841;
+  height: auto;
+
+  margin-top: 8rem;
+
+  padding: 3rem;
+}
+
+.footer_icon_handler {
+  padding-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+.footer_icons {
+  font-size: 3rem;
+  color: white;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.footer_icons:hover {
+  transform: scale(1.1);
+  opacity: 100%;
+}
+.footer_p {
+  font-size: 1.5rem;
+  font-family: "Nanum Gothic", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+
+  opacity: 80%;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .footer_icons {
+    font-size: 2.4rem;
+  }
+  .footer_p {
+    font-size: 1rem;
+  }
+}
