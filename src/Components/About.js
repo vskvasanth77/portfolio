@@ -7,6 +7,8 @@ import Aboutme from "../json/Aboutme.json";
 import aboutDot from "../Images/about_section_dot.png";
 
 const About = () => {
+  const aboutContent =
+    "Hi, I am a graduate of SRM University, holding a B.Tech degree in Information Technology, where my passion for technology and design was ignited. I'm primarily focused on MERN Stack development and UI/UX designer and software Engineer. My journey in the world of IT has been driven by my enthusiasm for learning and my creative approach to problem-solving. I thrive on challenges and have a track record of delivering results efficiently. I'm a dedicated lifelong learner, constantly embracing new technologies and methodologies. This thirst for knowledge not only keeps my skills sharp but also allows me to adapt swiftly to emerging trends and technologies in the ever-evolving tech landscape.";
   return (
     <>
       <div className="about_container" id="about">
@@ -16,21 +18,7 @@ const About = () => {
             <span className=" text text_hover">&nbsp;&nbsp;About Me</span>
           </h1>
           <div className="about_container_left_content">
-            <p className="about_p">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-              omnis numquam dolorum, pariatur veritatis, alias cupiditate sunt
-              esse placeat ad eius enim deserunt quibusdam, delectus saepe
-              maiores eum sed deleniti. Home Contrary to popular belief, Lorem
-              Ipsum is not simply random text. It has roots in a piece of
-              classical Latin.Home Contrary to popular belief, Lorem Ipsum is
-              not simply random text. It has roots in a piece of classical
-              Latin.Home Contrary to popular belief, Lorem Ipsum is not simply
-              random text. It has roots in a piece of classical Latin.Home
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin.Home Contrary to
-              popular belief, Lorem Ipsum is not simply random text. It has
-              roots in a piece of classical Latin.
-            </p>
+            <p className="about_p">{aboutContent}</p>
             <div className="about_container_left_icons">
               {/* icon handler for 3 icons */}
               <div className="icon_handler">

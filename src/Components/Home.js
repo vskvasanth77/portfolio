@@ -44,8 +44,9 @@ const Home = () => {
             </span>
           </h2>
           <p className="home_header_p">
-            Home Contrary to popular belief, Lorem Ipsum is not simply random
-            text. It has roots in a piece of classical Latin. Lorem ipsum, dolor
+            I'm a MERN stack developer, UI/UX designer, and software engineer. I
+            create user-friendly websites that blend aesthetics with
+            functionality. Let's collaborate to bring your vision to life!
           </p>
           <div className="home_container_left_btn_handler">
             <Link
