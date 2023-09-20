@@ -13,17 +13,37 @@ const Project = () => {
             &nbsp;&nbsp;My Project
           </span>
         </h1>
-        <div className="project_content">
-          <CardProject
-            img={data[0].image}
-            title={data[0].title}
-            desc={data[0].desc}
-          />
-          <CardProject
-            img={data[0].image}
-            title={data[0].title}
-            desc={data[0].desc}
-          />
+        <div className="project_content_handler">
+          <div className="project_content">
+            <CardProject
+              img={data[0].image}
+              title={data[0].title}
+              titleMain={data[0].titleMain}
+              desc={data[0].desc}
+              link={data[0].link}
+            />
+            <CardProject
+              img={data[1].image}
+              title={data[1].title}
+              titleMain={data[1].titleMain}
+              desc={data[1].desc}
+            />
+          </div>
+          <div className="project_content">
+            <CardProject
+              img={data[0].image}
+              title={data[0].title}
+              titleMain={data[0].titleMain}
+              desc={data[0].desc}
+              link={data[0].link}
+            />
+            <CardProject
+              img={data[1].image}
+              title={data[1].title}
+              titleMain={data[1].titleMain}
+              desc={data[1].desc}
+            />
+          </div>
         </div>
       </div>
     </>
