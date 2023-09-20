@@ -122,6 +122,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 3rem;
+  padding: 0 1rem;
   letter-spacing: 0.2rem;
 }
 
@@ -131,6 +132,14 @@
   text-align: justify;
   font-weight: 600;
   padding: 2rem 5rem;
+  line-height: 2.8rem;
+}
+.details_tech {
+  font-size: 1.7rem;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bolder;
+  margin-top: -2rem;
+  padding: 0 8rem;
   line-height: 2.8rem;
 }
 
@@ -201,5 +210,8 @@
     height: 3.5rem;
     margin-top: 2rem;
     font-size: 1.3rem;
+  }
+  .details_tech {
+    margin-top: 0;
   }
 }

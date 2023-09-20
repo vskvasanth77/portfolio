@@ -1,5 +1,6 @@
 .project_container {
-  height: 90vh;
+  height: auto;
+  margin-bottom: 5rem;
 }
 .project_header {
   font-family: "Roboto Serif", serif;
@@ -31,6 +32,11 @@
   width: 23%;
 }
 
+.project_content_handler {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
 .project_content {
   display: flex;
   justify-content: center;
