@@ -55,6 +55,8 @@ const CardProject = (props) => {
           <div className="details_content">
             <h1 className="details_header">{props.titleMain}</h1>
             <p className="details_p">{props.desc}</p>
+            <p className="details_p"> Technologies Used :</p>
+            <p className="details_tech">{props.tech} </p>
             <div className="details_btn_handler">
               <button className="details_btn" onClick={detailshandler}>
                 close
