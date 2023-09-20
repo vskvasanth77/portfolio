@@ -83,10 +83,10 @@
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
-.btn-container button a {
-  font-size: inherit;
+.btn-container button {
+  font-size: 2rem;
 }
-.btn-container button a:hover {
+.btn-container button:hover {
   background-color: transparent;
   border: 3px solid #d25380;
 }
