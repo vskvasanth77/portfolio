@@ -121,6 +121,11 @@ textarea {
   font-family: inherit;
 }
 
+@media (max-width: 1350px) {
+  .email_container_left {
+    margin-left: 10rem;
+  }
+}
 /*Here after its for mobile view*/
 @media (max-width: 480px) {
   .email_handler {
