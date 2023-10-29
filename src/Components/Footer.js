@@ -22,7 +22,7 @@ const Footer = () => {
             <i className="fa-brands fa-behance footer_icons"></i>
           </a>
         </div>
-        <p className="footer_p">Copyright @2023 vsk</p>
+        <p className="footer_p">Copyright @2023 vasanth</p>
       </div>
     </>
   );

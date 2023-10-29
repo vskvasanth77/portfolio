@@ -1,9 +1,11 @@
 .home_container {
   height: 90vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 
 .home_container_left {
@@ -157,6 +159,16 @@
 /*Here after is for mobile view*/
 
 /**/
+
+@media (max-width: 1350px) {
+  .home_container_right {
+    margin-right: 2rem;
+  }
+  .home_container_right_comupter {
+    width: 45rem;
+    height: 45rem;
+  }
+}
 @media (max-width: 480px) {
   .home_container {
     display: flex;
