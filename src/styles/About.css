@@ -87,6 +87,17 @@
   right: 10%;
 }
 
+/*here after its for 13inch lap*/
+
+@media (max-width: 1350px) {
+  .about_p {
+    width: 65rem;
+  }
+
+  .about_container_right {
+    margin-right: 5rem;
+  }
+}
 /*here after its for mobile view */
 
 @media (max-width: 480px) {
